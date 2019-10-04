@@ -1,0 +1,46 @@
+{
+  "name": "dice-engine",
+  "version": "1.0.0",
+  "description": "A service to manipulate and throw dices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhemheinrich/dice-engine.git"
+  },
+  "keywords": [
+    "dice",
+    "random",
+    "simulator",
+    "workflow"
+  ],
+  "author": "Guilhem Heinrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhemheinrich/dice-engine/issues"
+  },
+  "homepage": "https://github.com/guilhemheinrich/dice-engine#readme",
+  "dependencies": {
+    "typescript": "^3.3.3333",
+    "@types/express": "^4.16.0",
+    "express": "^4.16.4",
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.17",
+    "@types/tape": "^4.2.33",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-tape": "^0.1.0",
+    "grunt-ts": "^6.0.0-beta.21",
+    "grunt-tslint": "^5.0.2",
+    "tape": "^4.9.1",
+    "typescript": "^3.2.2"
+  }
+}
